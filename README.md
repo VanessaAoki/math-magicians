@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/math-magicians/blob/main/LICENSE">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/VanessaAoki/math-magicians?style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/math-magicians">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/VanessaAoki/math-magicians/main?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/math-magicians">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/VanessaAoki/math-magicians?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/VanessaAoki?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians
+With Math Magicians you have access to a calculator and an inspirational quote!
 
-## Available Scripts
+<p align="center">
+  TBA
+</p>
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- HTML, CSS, React;
+- Visual Studio, Git & GitHub;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Running locally
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
 
-### `yarn test`
+1. In your terminal, type the following, to clone this repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+$ git clone https://github.com/VanessaAoki/MathMagicians.git
+```
 
-### `yarn build`
+2. After, run the following commands in your terminal:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+$ cd MathMagicians
+$ yarn install
+$ yarn start
+```
+<details align="right">
+<summary><small>What are these commands?</summary>
+- '$ cd' command is used to move to different folders. <br>
+- '$ yarn install' is used to install all dependencies for this project. <br>
+- '$ yarn start' runs the app in the development mode.</small>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. If your default browser do not start automatically, open it and type `http://localhost:3000` to run the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running tests
+To launch the test runner in the interactive watch mode, run `$ yarn test` in your console.
+> To read more information about running tests, visit [create react app website](https://create-react-app.dev/docs/running-tests/);
 
-### `yarn eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+👩🏼‍💻  **Vanessa Aoki**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@VanessaAoki](https://github.com/VanessaAoki)
+- Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
+- Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🤝 Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
+Feel free to check the [issues page](https://github.com/VanessaAoki/math-magicians/issues).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
