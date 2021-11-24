@@ -20,7 +20,7 @@
 With Math Magicians you have access to a calculator and an inspirational quote!
 
 <p align="center">
-  TBA
+  screenshots TBA
 </p>
 
 ## Built With
