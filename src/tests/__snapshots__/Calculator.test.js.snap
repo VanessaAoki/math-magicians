@@ -7,36 +7,43 @@ exports[`Calculator UI renders as expected 1`] = `
   <div
     className="display-result"
   >
-    <p>
+    <p
+      id="result"
+    >
       0
     </p>
+    <p />
   </div>
   <div
     className="first"
   >
     <button
       className="first-0"
+      onClick={[Function]}
       type="button"
     >
       AC
     </button>
     <button
       className="first-1"
+      onClick={[Function]}
       type="button"
     >
       +/-
     </button>
     <button
       className="first-2"
+      onClick={[Function]}
       type="button"
     >
       %
     </button>
     <button
       className="first-3"
+      onClick={[Function]}
       type="button"
     >
-      +
+      ÷
     </button>
   </div>
   <div
@@ -44,24 +51,28 @@ exports[`Calculator UI renders as expected 1`] = `
   >
     <button
       className="second-0"
+      onClick={[Function]}
       type="button"
     >
       7
     </button>
     <button
       className="second-1"
+      onClick={[Function]}
       type="button"
     >
       8
     </button>
     <button
       className="second-2"
+      onClick={[Function]}
       type="button"
     >
       9
     </button>
     <button
       className="second-3"
+      onClick={[Function]}
       type="button"
     >
       x
@@ -72,24 +83,28 @@ exports[`Calculator UI renders as expected 1`] = `
   >
     <button
       className="third-0"
+      onClick={[Function]}
       type="button"
     >
       4
     </button>
     <button
       className="third-1"
+      onClick={[Function]}
       type="button"
     >
       5
     </button>
     <button
       className="third-2"
+      onClick={[Function]}
       type="button"
     >
       6
     </button>
     <button
       className="third-3"
+      onClick={[Function]}
       type="button"
     >
       -
@@ -100,24 +115,28 @@ exports[`Calculator UI renders as expected 1`] = `
   >
     <button
       className="fourth-0"
+      onClick={[Function]}
       type="button"
     >
       1
     </button>
     <button
       className="fourth-1"
+      onClick={[Function]}
       type="button"
     >
       2
     </button>
     <button
       className="fourth-2"
+      onClick={[Function]}
       type="button"
     >
       3
     </button>
     <button
       className="fourth-3"
+      onClick={[Function]}
       type="button"
     >
       +
@@ -128,18 +147,21 @@ exports[`Calculator UI renders as expected 1`] = `
   >
     <button
       className="fifth-0"
+      onClick={[Function]}
       type="button"
     >
       0
     </button>
     <button
       className="fifth-1"
+      onClick={[Function]}
       type="button"
     >
       .
     </button>
     <button
       className="fifth-2"
+      onClick={[Function]}
       type="button"
     >
       =
