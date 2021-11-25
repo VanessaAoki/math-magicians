@@ -1,5 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/no-array-index-key */
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 
@@ -26,7 +24,7 @@ const Calculator = () => {
   const first = firstRow.map(
     (elem, index) => (
       <button
-        key={`first-${index}`}
+        key={`first-${index + 0}`}
         className={`first-${index}`}
         type="button"
         onClick={onClickHandler}
@@ -39,7 +37,7 @@ const Calculator = () => {
   const second = secondRow.map(
     (elem, index) => (
       <button
-        key={`second-${index}`}
+        key={`second-${index + 0}`}
         className={`second-${index}`}
         type="button"
         onClick={onClickHandler}
@@ -52,7 +50,7 @@ const Calculator = () => {
   const third = thirdRow.map(
     (elem, index) => (
       <button
-        key={`third-${index}`}
+        key={`third-${index + 0}`}
         className={`third-${index}`}
         type="button"
         onClick={onClickHandler}
@@ -65,7 +63,7 @@ const Calculator = () => {
   const fourth = fourthRow.map(
     (elem, index) => (
       <button
-        key={`fourth-${index}`}
+        key={`fourth-${index + 0}`}
         className={`fourth-${index}`}
         type="button"
         onClick={onClickHandler}
@@ -78,7 +76,7 @@ const Calculator = () => {
   const fifth = fifthRow.map(
     (elem, index) => (
       <button
-        key={`fifth-${index}`}
+        key={`fifth-${index + 0}`}
         className={`fifth-${index}`}
         type="button"
         onClick={onClickHandler}
