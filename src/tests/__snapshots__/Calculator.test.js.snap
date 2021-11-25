@@ -7,9 +7,7 @@ exports[`Calculator UI renders as expected 1`] = `
   <div
     className="display-result"
   >
-    <p
-      id="result"
-    >
+    <p>
       0
     </p>
     <p />
