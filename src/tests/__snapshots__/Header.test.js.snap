@@ -2,19 +2,22 @@
 
 exports[`Header UI renders as expected, we have the logo, quote, calculator and home links 1`] = `
 <header>
-  <h2>
+  <h1>
     <a
-      href="/"
+      href="/home"
       onClick={[Function]}
     >
-      Header
+      Math Magicians
     </a>
-  </h2>
+  </h1>
   <nav>
-    <ul>
+    <ul
+      id="navbar"
+    >
       <li>
         <a
-          href="/"
+          aria-current={null}
+          href="/home"
           onClick={[Function]}
         >
           Home
@@ -22,6 +25,7 @@ exports[`Header UI renders as expected, we have the logo, quote, calculator and 
       </li>
       <li>
         <a
+          aria-current={null}
           href="/calculator"
           onClick={[Function]}
         >
@@ -30,6 +34,7 @@ exports[`Header UI renders as expected, we have the logo, quote, calculator and 
       </li>
       <li>
         <a
+          aria-current={null}
           href="/quote"
           onClick={[Function]}
         >
