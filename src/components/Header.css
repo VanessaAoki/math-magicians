@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 4em;
+  background-color: var(--orange);
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  padding: 0 0.5em;
+}
+
+header ul li:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}

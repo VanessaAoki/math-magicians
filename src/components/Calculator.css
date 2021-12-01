@@ -1,0 +1,182 @@
+:root {
+  --orange: rgb(250, 140, 40);
+  --background: rgb(200, 200, 200);
+  --background-body: rgba(150, 150, 150, 0.274);
+  --grey-border: 1px solid rgb(190, 190, 190);
+  --grey: rgb(143, 143, 143);
+
+  display: grid;
+
+  --calc-columns: repeat(4, 75px);
+  --calc-rows: 50px;
+  --calc-place: center;
+  --calc-gaps: 1px;
+}
+
+button {
+  height: 50px;
+  border: none;
+  width: 100%;
+}
+
+.calculator-grid {
+  width: 300px;
+  border: var(--grey-border);
+}
+
+.display-result {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--grey);
+  color: white;
+}
+
+.display-result > p {
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: var(--calc-columns);
+  grid-template-rows: var(--calc-rows);
+  place-items: var(--calc-place);
+  grid-template-areas: "first-0 first-1 first-2 first-3";
+  border-top: var(--grey-border);
+}
+
+.first-0 {
+  grid-area: first-0;
+  border-right: var(--grey-border);
+}
+
+.first-1 {
+  grid-area: first-1;
+  border-right: var(--grey-border);
+}
+
+.first-2 {
+  grid-area: first-2;
+  border-right: var(--grey-border);
+}
+
+.first-3 {
+  grid-area: first-3;
+  background-color: var(--orange);
+}
+
+.second {
+  display: grid;
+  grid-template-columns: var(--calc-columns);
+  grid-template-rows: var(--calc-rows);
+  place-items: var(--calc-place);
+  grid-template-areas: "second-0 second-1 second-2 second-3";
+  border-top: var(--grey-border);
+}
+
+.second-0 {
+  grid-area: second-0;
+  border-right: var(--grey-border);
+}
+
+.second-1 {
+  grid-area: second-1;
+  border-right: var(--grey-border);
+}
+
+.second-2 {
+  grid-area: second-2;
+  border-right: var(--grey-border);
+}
+
+.second-3 {
+  grid-area: second-3;
+  background-color: var(--orange);
+}
+
+.third {
+  display: grid;
+  grid-template-columns: var(--calc-columns);
+  grid-template-rows: var(--calc-rows);
+  place-items: var(--calc-place);
+  grid-template-areas: "third-0 third-1 third-2 third-3";
+  border-top: var(--grey-border);
+}
+
+.third-0 {
+  grid-area: third-0;
+  border-right: var(--grey-border);
+}
+
+.third-1 {
+  grid-area: third-1;
+  border-right: var(--grey-border);
+}
+
+.third-2 {
+  grid-area: third-2;
+  border-right: var(--grey-border);
+}
+
+.third-3 {
+  grid-area: third-3;
+  background-color: var(--orange);
+}
+
+.fourth {
+  display: grid;
+  grid-template-columns: var(--calc-columns);
+  grid-template-rows: var(--calc-rows);
+  place-items: var(--calc-place);
+  grid-template-areas: "fourth-0 fourth-1 fourth-2 fourth-3";
+  border-top: var(--grey-border);
+}
+
+.fourth-0 {
+  grid-area: fourth-0;
+  border-right: var(--grey-border);
+}
+
+.fourth-1 {
+  grid-area: fourth-1;
+  border-right: var(--grey-border);
+}
+
+.fourth-2 {
+  grid-area: fourth-2;
+  border-right: var(--grey-border);
+}
+
+.fourth-3 {
+  grid-area: fourth-3;
+  background-color: var(--orange);
+}
+
+.fifth {
+  display: grid;
+  grid-template-columns: var(--calc-columns);
+  grid-template-rows: var(--calc-rows);
+  place-items: var(--calc-place);
+  grid-template-areas: "fifth-0 fifth-0 fifth-1 fifth-2";
+  border-top: var(--grey-border);
+}
+
+.fifth-0 {
+  grid-area: fifth-0;
+  border-right: var(--grey-border);
+}
+
+.fifth-1 {
+  grid-area: fifth-1;
+  border-right: var(--grey-border);
+}
+
+.fifth-2 {
+  grid-area: fifth-2;
+  background-color: var(--orange);
+}
