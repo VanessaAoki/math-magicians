@@ -1,6 +1,7 @@
 :root {
   --orange: rgb(250, 140, 40);
   --background: rgb(200, 200, 200);
+  --background-body: rgba(150, 150, 150, 0.274);
   --grey-border: 1px solid rgb(190, 190, 190);
   --grey: rgb(143, 143, 143);
 
@@ -12,10 +13,6 @@
   --calc-gaps: 1px;
 }
 
-.app-container {
-  width: 100%;
-}
-
 button {
   height: 50px;
   border: none;
@@ -24,7 +21,6 @@ button {
 
 .calculator-grid {
   width: 300px;
-  margin: 10vh auto;
   border: var(--grey-border);
 }
 
@@ -42,6 +38,7 @@ button {
   padding-right: 10px;
   font-weight: bold;
   font-size: 20px;
+  margin: 0;
 }
 
 .first {
