@@ -12,6 +12,8 @@ const render = (ui, { route = '/' } = {}) => {
 
 test('User should be in the home page', () => {
   render(<App />);
+  userEvent.click(screen.getByText(/Home/i));
+
   expect(screen.getByText(/Welcome to our page!/i)).toBeInTheDocument();
 });
 
@@ -19,7 +21,7 @@ test('User should be able to render the quotes page after clicking the quote lin
   render(<App />);
   userEvent.click(screen.getByText(/Quote/i));
 
-  expect(screen.getByText(/Quote of the day/i)).toBeInTheDocument();
+  expect(screen.getByText(/Einstein/i)).toBeInTheDocument();
 });
 
 test('User should be able to render the calculator page after clicking the quote link in the navbar', () => {

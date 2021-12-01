@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home renders as expected 1`] = `
-<div>
+<div
+  className="calculatorContainer"
+>
   <h2>
-    Calculator
+    Let's do some math!
   </h2>
   <section
     className="calculator-grid"

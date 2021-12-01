@@ -1,14 +1,28 @@
-import React from 'react';
-import { MemoryRouter } from 'react-router-dom';
-import renderer from 'react-test-renderer';
-import Header from '../components/Header';
+import { render as rtlRender, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import userEvent from '@testing-library/user-event';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from '../App';
 
-const tree = renderer.create(
-  <MemoryRouter>
-    <Header />
-  </MemoryRouter>,
-).toJSON();
+const render = (ui, { route = '/' } = {}) => {
+  window.history.pushState({}, 'Test page', route);
 
-it('Header UI renders as expected, we have the logo, quote, calculator and home links', () => {
-  expect(tree).toMatchSnapshot();
+  return rtlRender(ui, { wrapper: Router });
+};
+
+describe('Test header UI', () => {
+  test('When user click on the Home link, it should be highlighted', () => {
+    render(<App />);
+    userEvent.click(screen.getByText(/Home/i));
+
+    expect(screen.getByText(/Home/i)).toHaveClass('highlight');
+  });
+
+  test('When user click on the Quote link, it should be highlighted and Home shouldn\'t be highlighted', () => {
+    render(<App />);
+    userEvent.click(screen.getByText(/Quote/i));
+
+    expect(screen.getByText(/Quote/i)).toHaveClass('highlight');
+    expect(screen.getByText(/Home/i)).not.toHaveClass('highlight');
+  });
 });

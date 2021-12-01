@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home renders as expected 1`] = `
-<h2>
-  Quote
-</h2>
+<div
+  className="quoteContainer"
+>
+  <p>
+    Pure mathematics is, in its way, the poetry of logical ideas.
+  </p>
+  <p>
+    <b>
+      — Albert Einstein
+    </b>
+  </p>
+</div>
 `;
