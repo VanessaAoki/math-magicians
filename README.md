@@ -36,13 +36,13 @@ To run this project, you only need a computer with a browser (like Google Chrome
 1. In your terminal, type the following, to clone this repository:
 
 ```sh
-$ git clone https://github.com/VanessaAoki/MathMagicians.git
+$ git clone https://github.com/VanessaAoki/math-magicians.git
 ```
 
 2. After, run the following commands in your terminal:
 
 ```sh
-$ cd MathMagicians
+$ cd math-magicians
 $ yarn install
 $ yarn start
 ```
