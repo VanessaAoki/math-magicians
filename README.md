@@ -20,7 +20,7 @@
 With Math Magicians you have access to a calculator and an inspirational quote!
 
 <p align="center">
-  screenshots TBA
+  <img src="./src/images/screenshot.png">
 </p>
 
 ## Built With
@@ -54,6 +54,9 @@ $ yarn start
 </details>
 
 3. If your default browser do not start automatically, open it and type `http://localhost:3000` to run the application.
+
+### Live server
+Optionally, you can run the application on [Heroku](https://warm-river-20465.herokuapp.com/home) or [Netlify](https://lucid-wing-c7ce8a.netlify.app/home).
 
 ### Running tests
 To launch the test runner in the interactive watch mode, run `$ yarn test` in your console.
